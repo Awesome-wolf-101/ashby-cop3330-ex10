@@ -35,9 +35,9 @@ public class APP {
         double SubTotal = (PriceOfItem1Double * QuantityOfItem1Double) + (PriceOfItem2Double * QuantityOfItem2Double) + (PriceOfItem3Double * QuantityOfItem3Double);
         double Tax = SubTotal * TaxConstant;
         double ActualTotal = SubTotal + Tax;
-        System.out.println("Subtotal: $" + SubTotal);
-        System.out.println("Tax: $" + Tax);
-        System.out.println("ActualTotal: $" + ActualTotal);
+        String OutPutString = "Subtotal: $" + SubTotal + "\nTax: $" + Tax + "\nTotal: $" + ActualTotal;
+        System.out.println(OutPutString);
+
 
 
 
